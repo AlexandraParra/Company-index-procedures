@@ -43,5 +43,6 @@ classDiagram
     Employee "N" *-- "1" Department
     Employee "N" *-- "N" Project
     Employee "1" *-- "N" Dependent
+    Department "1" *-- "N" Project
 
 ```
